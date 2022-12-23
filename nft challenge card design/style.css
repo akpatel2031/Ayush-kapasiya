@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+
+/*card-style*/
+.card {
+    background-color: hsl(216, 50%, 16%);
+    padding: 25px;
+    border-radius: 15px;
+
+}
+
+.card-body {
+    width: 250px;
+    height: auto;
+}
+
+
+/*card-content style*/
+
+.card-content {
+    margin-top: 14px;
+}
+
+.card-content h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+
+.card-content h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.card-content p {
+    color: hsl(215, 51%, 70%);
+    padding: 10px 0;
+    line-height: normal;
+    letter-spacing: .05em;
+    font-weight: 300;
+    font-size: 15.5px;
+}
+
+.card-content .pngs span {
+    margin-right: 60px;
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    font-size: 15px;
+    position: relative;
+    top: -3px;
+}
+
+.card-content .pngs p {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    top: -3px;
+}
+
+/*footer-section*/
+
+.footer img {
+    margin-top: 15px;
+    border: 1px solid;
+    border-radius: 100%;
+    margin-right: 15px
+}
+
+.footer p {
+    display: inline-block;
+    color: hsl(215, 51%, 70%);
+    position: relative;
+    top: -10px;
+    font-size: 15px;
+}
+
+.footer span {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    position: relative;
+    top: -10px;
+}
+
+.footer span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+
+/*overlay-section style*/
+.overlay {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+}
+
+.overlay:hover {
+    background-color:rgb(35, 199, 199,.6);
+    cursor: pointer;
+}
+
+.overlay:hover img {
+    display: block;
+}
+
+.overlay img {
+    position: absolute;
+    top: 42%;
+    left: 42%;
+    display: none;
+}
+
+/* line-style*/
+.line{
+   border-color:hsl(215, 32%, 27%);
+   border-top-width: 0px;
+   
+}
+
+
+/* attribution style*/
+.attribution{
+    color: white;
+    margin: 20px;
+    text-align: center;
+    
+}
+.attribution a{
+    color: brown;
+    font-weight: bold;
+}
