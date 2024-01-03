@@ -1,0 +1,818 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Real State Consultancy</title>
+    <link rel="shortcut icon" href="./images/logo-favicon.png" type="image/x-icon">
+
+    <!--bootstrap-cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!--font-awesome-cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!--custom css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--fonts css -->
+    <link rel="stylesheet" href="css/fonts.css">
+
+    <!--owl-carousel-cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+
+
+</head>
+
+<body>
+    <!--header-section-->
+    <header>
+        <nav class="navbar  fixed-top main-menu">
+            <div class="container-fluid">
+                <a class="navbar-brand py-0" href="#"><img src="./images/logo-desktop.png" alt="logo" width="109px"
+                        height="80px" class="logo"></a>
+                <nav class="navbar ms-auto py-0">
+                    <ul
+                        class="navbar-nav me-auto  flex-row d-lg-flex dekstop-only align-items-center">
+                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="channel.html">Channel partner</a></li>
+                        <li class="nav-item"><a class="nav-link" href="mandate.html">Mandate</a></li>
+                        <a href="tel: +91 8946781398" class="header-call nav-link">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            <span>+91 8946781398</span>
+                        </a>
+                        
+                    </ul>
+                    <a href="tel: +91 8946781398" class="header-call-mobile nav-link d-md-none">
+                        <i class="fa-solid fa-phone-volume"></i>
+
+                    </a>
+
+                </nav>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-bars"></i></span>
+                </button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="channel.html">Channel Partner</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="mandate.html">Mandate</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="career.html">Career</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="privacy.html">privacy Policy</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--header-section-end-->
+
+    <!--hero-banner-->
+    <section id="hero-banner" class="position-relative py-0">
+        <div class="container">
+            <div class="hero-content ">
+                <h1 class="">Find the <span>perfect place</span> to Live with <span>your family</span></h1>
+                <p>Search millions of apartments and houses</p>
+                <div class="home-search-box">
+                    <div class="left-select-box">
+                        <label for="select" class="mb-2"><i class="fa-solid fa-location-dot me-2"></i>city</label>
+                        <select class="form-select p-0 " aria-label="Default select example">
+                            <option selected>Pune</option>
+                            <option value="1">Mumbai</option>
+                            <option value="2">Gurugram</option>
+                            <option value="3">Delhi</option>
+                            <option value="4">Nagpur</option>
+                            <option value="5">Himachal pradesh</option>
+                        </select>
+                    </div>
+                    <div class="right-select-box">
+                        <label for="input" class="mb-2"> <i
+                                class="fa-solid fa-magnifying-glass me-2 "></i>search</label>
+                        <input type="text" class="form-control p-0 " placeholder="Search Project, Locality Builder...">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="images ">
+            <img src="./images/building.png" alt="building" class="img-fluid left-building">
+            <img src="./images/building2.png" alt="building2" class="img-fluid right-building">
+            <img src="./images/cloud.svg" alt="cloud" class="img-fluid cloud-one">
+            <img src="./images/cloud2.svg" alt="cloud" class="img-fluid cloud-two">
+            <img src="./images/cloud3.svg" alt="cloud" class="img-fluid cloud-three">
+            <img src="./images/cloud4.svg" alt="cloud" class="img-fluid cloud-four">
+            <img src="./images/cloud5.svg" alt="cloud" class="img-fluid cloud-five">
+            <img src="./images/birds7.svg" alt="cloud" class="img-fluid birds">
+        </div>
+    </section>
+    <!--hero-banner-end-->
+
+    <!--three-boxes-section-->
+    <section id="three-boxes" class="p-0">
+        <div class="container">
+            <div class="row">
+                <div class=" col-lg-4 col-md-4  mb-4 mb-md-0 ">
+                    <div class="card">
+                        <span><i class="fa-solid fa-house"></i></span>
+                        <div class="card-body p-0">
+                            <h3>Identify Property</h3>
+                            <p>Identify the most suitable property, following an exhaustive mapping of user requirements
+                                and the available vast pool of assets.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4  mb-4 mb-md-0 ">
+                    <div class="card">
+                        <span><i class="fa-regular fa-handshake"></i></span>
+                        <div class="card-body p-0">
+                            <h3>Structure the deal</h3>
+                            <p>Create tailor-made deals synergizing the financial needs and objectives of the client/
+                                buyer/ tenant as well as the developer/ property owner.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 mb-4 mb-md-0 ">
+                    <div class="card">
+                        <span><i class="fa-solid fa-key"></i></span>
+                        <div class="card-body p-0">
+                            <h3>Get the keys</h3>
+                            <p>Handhold throughout the buying cycle to ensure a hassle-free transaction with complete
+                                peace of mind.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--three-boxes-section-end-->
+
+    <!--welcome-section-->
+    <section id="find-your-property">
+        <div class="container">
+            <h4 class="gold-text">Find Your Properties</h4>
+            <h2 class="green-text">Explore the Pune Locations</h2>
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="img-box">
+                        <a href=""><img src="./images/1683052341_Wakad.jpg" alt="wakad" class="img-fluid"></a>
+                        <div class="links">
+                            <a href="">
+                                <h5>Wakad</h5>
+                            </a>
+                            <a href="">Explore Now <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                        <span>1+ Properties</span>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="img-box"><a href=""><img src="./images/1683052364_baner.jpg" alt="baner"
+                                class="img-fluid"></a>
+                        <div class="links">
+                            <a href="">
+                                <h5>Baner</h5>
+                            </a>
+                            <a href="">Explore Now <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                        <span>1+ Properties</span>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="img-box"><a href=""><img src="./images/1683439745__16579654621_large.jpg" alt="large"
+                                class="img-fluid"></a>
+                        <div class="links">
+                            <a href="">
+                                <h5>Mahalunge</h5>
+                            </a>
+                            <a href="">Explore Now <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                        <span>3+ Properties</span>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="img-box"><a href=""><img src="./images/1683438965_kharadi.jpg" alt="kharadi"
+                                class="img-fluid"></a>
+                        <div class="links">
+                            <a href="">
+                                <h5>kharadi</h5>
+                            </a>
+                            <a href="">Explore Now <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                        <span>5+ Properties</span>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="img-box"><a href=""><img src="./images/1683439256_pimpri.jpg" alt="pimpri"
+                                class="img-fluid"></a>
+                        <div class="links">
+                            <a href="">
+                                <h5>Pimpri</h5>
+                            </a>
+                            <a href="">Explore Now <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                        <span>1+ Properties</span>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="img-box"><a href=""><img src="./images/1683435730_hinjewadi.jpg" alt="wakad"
+                                class="img-fluid"></a>
+                        <div class="links">
+                            <a href="">
+                                <h5>Hinjewadi</h5>
+                            </a>
+                            <a href="">Explore Now <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                        <span>2+ Properties</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--welcome-section-end-->
+
+    <!--browse-offers-->
+    <section id="browse-offers">
+        <img src="./images/build-skyline.png" alt="skyline" class="img-fluid left-skyline">
+        <img src="./images/build-skyline2.png" alt="skyline2" class="img-fluid right-skyline">
+        <div class="container position-relative">
+            <h4 class="gold-text">Browse Hot Offers</h4>
+            <h2 class="green-text">Latest Properties in Pune</h2>
+            <a href="" class="prop-view-btn">View More Properties</a>
+            <div class="owl-carousel offers owl-theme">
+                <div class="item">
+                    <div class="card">
+                        <img src="./images/1683051939_wvr-desktop-1.jpg" alt="building-img" class="img-fluid">
+                        <div class="card-body">
+                            <h5> <a href=""> Kohinoor Westview Reserve</a></h5>
+                            <span class="grey-text"><i class="fa-solid fa-location-dot"></i><a href="">Wakad</a></span>
+                            <p class="sqft">1244 sqft- 884 sqft</p>
+                            <p class="grey-text">Under Construction</p>
+                            <h5 class="price-tag"><i class="fa-solid fa-indian-rupee-sign me-1"></i>94 Lacs* - 1.34 Cr*
+                            </h5>
+                            <a href="" class="green-link"><i class="fa-regular fa-envelope me-2"></i> Get a Quote</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img src="./images/1683441962_001.jpg" alt="building-img" class="img-fluid">
+                        <div class="card-body">
+                            <h5> <a href="">I Trends Home</a></h5>
+                            <span class="grey-text"><i class="fa-solid fa-location-dot"></i><a
+                                    href="">Mahalunge</a></span>
+                            <p class="sqft">644 sqft- 884 sqft</p>
+                            <p class="grey-text">Launch</p>
+                            <h5 class="price-tag"><i class="fa-solid fa-indian-rupee-sign me-1"></i>80 Lacs* - 99 Lacs*
+                            </h5>
+                            <a href="" class="green-link"><i class="fa-regular fa-envelope me-2"></i> Get a Quote</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img src="./images/1683437695_b2-1400w_(1).jpg" alt="building-img" class="img-fluid">
+                        <div class="card-body">
+                            <h5><a href="">Gera's World Of Joy</a></h5>
+                            <span class="grey-text"><i class="fa-solid fa-location-dot"></i><a
+                                    href="">Kharadi</a></span>
+                            <p class="sqft">1034 sqft- 882 sqft</p>
+                            <p class="grey-text">Under Construction</p>
+                            <h5 class="price-tag"><i class="fa-solid fa-indian-rupee-sign me-1"></i>85 Lacs* - 2 Cr*
+                            </h5>
+                            <a href="" class="green-link"><i class="fa-regular fa-envelope me-2"></i> Get a Quote</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img src="./images/1681607560_16iwl4khzwlgexc9qzvj3.jpeg" alt="building-img" class="img-fluid">
+                        <div class="card-body">
+                            <h5><a href="">VJ Palladio</a></h5>
+                            <span class="grey-text"><i class="fa-solid fa-location-dot"></i><a
+                                    href="">Kharadi</a></span>
+                            <p class="sqft">1040 sqft- 755 sqft</p>
+                            <p class="grey-text">Pre Launch</p>
+                            <h5 class="price-tag"><i class="fa-solid fa-indian-rupee-sign me-1"></i>1 Cr* - 1.75 Cr*
+                            </h5>
+                            <a href="" class="green-link"><i class="fa-regular fa-envelope me-2"></i> Get a Quote</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img src="./images/1683437923_Balcony-render-01.jpg" alt="building-img" class="img-fluid">
+                        <div class="card-body">
+                            <h5><a href="">Mahindra Nestalgia</a></h5>
+                            <span class="grey-text"><i class="fa-solid fa-location-dot"></i><a href="">Pimpri</a></span>
+                            <p class="sqft">1046 sqft- 975 sqft</p>
+                            <p class="grey-text">Pre Launch</p>
+                            <h5 class="price-tag"><i class="fa-solid fa-indian-rupee-sign me-1"></i>87 Lacs* - 1.3 Cr*
+                            </h5>
+                            <a href="" class="green-link"><i class="fa-regular fa-envelope me-2"></i> Get a Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--browse-offers-end-->
+
+    <!--wlecome-to-ace-->
+    <section id="welcome-to-ace">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5  pe-lg-5">
+                    <img src="./images/abour-ace-prime-img.png" alt="prime-img" class="img-fluid">
+                </div>
+                <div class="col-lg-7 position-relative">
+                    <h4 class="gold-text">Welcome To</h4>
+                    <h2 class="green-text">ACE Prime Infra</h2>
+                    <img src="./images/birds7.svg" alt="birds" class="img-fluid wel-birds">
+                    <p class="wel-para">Ace Prime Infra is a fully-integrated, technology-enabled marketplace, aimed at
+                        connecting the dots between real state buyers, developers, and landlords. Operating across both
+                        commercial as well as residential categories, it holds an extensive bandwidth throughout the
+                        real estate business cycle, from property identification to deal structuring to transaction
+                        assistance & closure to after-sales support.</p>
+                    <div class="row mb-5">
+                        <div class="col-lg-3 col-sm-3 col-6 mb-3 mb-sm-0">
+                            <div class="count-box">
+                                <h5>400+</h5>
+                                <p>Channel Partners</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-3 col-6  mb-3 mb-sm-0">
+                            <div class="count-box">
+                                <h5>15+</h5>
+                                <p>Years Of Experiance</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-3 col-6">
+                            <div class="count-box">
+                                <h5>30+</h5>
+                                <p>Awards</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-3 col-6">
+                            <div class="count-box">
+                                <h5>70+</h5>
+                                <p>Team Members</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="" class="read-btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--wlecome-to-ace-end-->
+
+    <!--services-section-->
+    <section id="service-sec">
+        <div class="container">
+            <div class="service-heading text-center mb-5">
+                <h4 class="gold-text">Our Services</h4>
+                <h2 class="green-text justify-content-center align-items-center ">We Provide Full Services</h2>
+            </div>
+            <div class=" service-content-grid">
+
+                <div class="service-block">
+                    <img src="./images/corporate.jpg" alt="corporate" class="img-fluid round-img">
+                    <h4>Corporate Space Leasing</h4>
+                    <p>We proactively work with many prestigious companies and unique brands, independent banks and
+                        private developers who genuinely want to lease or promptly buy prime office space for
+                        business extensions to carefully explore the market dynamics.</p>
+                </div>
+
+
+
+                <div class="service-block right-side">
+                    <img src="./images/preleased.jpg" alt="preleased" class="img-fluid round-img">
+                    <h4>Pre-leased Properties</h4>
+                    <p>Properly investing with the pre-leased holdings achieves inevitably a rational decision for
+                        the property investment, pre-leased property is one in which the valuable property is
+                        already been given as rental property.</p>
+                </div>
+
+
+
+                <div class="service-block">
+                    <img src="./images/assuredRental.jpg" alt="assuredRental" class="img-fluid round-img">
+                    <h4>Assured Rental investment</h4>
+                    <p>Assured rental properties can be financially rewarding and typically have innumerable tax
+                        benefits, including the cognitive ability to deduct adequate insurance, the active interest
+                        on your adjustable mortgage, and maintenance costs.</p>
+                </div>
+
+
+
+                <div class="service-block right-side">
+                    <img src="./images/hotel.jpg" alt="hotel" class="img-fluid round-img">
+                    <h4>Hotel Selling and Leasing</h4>
+                    <p>The property investors necessities are tremendously evolving naturally significant time to
+                        prime time and succinctly putting all eggs in a single basket always risk involved, the
+                        property investment inevitably execute you better capital gains if you unanimously choose
+                        different properties verticals for secured and lucrative returns.</p>
+                </div>
+
+
+
+                <div class="service-block">
+                    <img src="./images/education.jpg" alt="education" class="img-fluid round-img">
+                    <h4>Educational Space Selling and Leasing</h4>
+                    <p>Appropriate education sector in India remains a strategic priority for the Government. The
+                        Government has graciously allowed 100% Foreign Direct Investment (FDI) in the education
+                        sector through the automatic route since 2002. From April 2000 to September 2020, Foreign
+                        Direct Investment (FDI) equity.</p>
+                </div>
+
+
+
+                <div class="service-block right-side">
+                    <img src="./images/commercial.jpg" alt="corporate" class="img-fluid round-img">
+                    <h4>Commercial Land Selling</h4>
+                    <p>Conveniently getting an appropriate commercial and developed land at specific locations
+                        remains an extensive, critical and complex exercise for commercial and industrial
+                        developers, which naturally gets official, technical and financial clearance and invariably
+                        meet out the building bylaws as per the government specifications.</p>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <!--services-section-end-->
+
+    <!--prime-infra-section-->
+    <section id="prime-infra">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6  mb-lg-0 mb-4">
+                    <!-- <img src="./images/build-skyline.png" alt="skyline" class="img-fluid prime-build"> -->
+                    <h4 class="gold-text">How Ace Prime Infra Works?</h4>
+                    <h2 class="green-text ">Enhanced Customer Loyalty To Ensure Faster Business
+                        Growth.</h2>
+                    <ul class="p-0">
+                        <li>Creates customer delight and satisfaction throughout the duration of purchase.</li>
+                        <li>Results in opening up a sales channel through referrals.</li>
+                        <li>High sales conversion rate from referrals – can contribute up to 40% of total sales.</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 ">
+                    <div class="grid-box-container">
+                        <div class="grid-boxes">
+                            <i class="fa-solid fa-trophy"></i>
+                            <h5>Top Rated Company</h5>
+                            <p>We have achieved a rank in the industry not only by the view of our customers or builders
+                                but
+                                our employees as well.</p>
+                        </div>
+                        <div class="grid-boxes">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <h5>Certified</h5>
+                            <p>We are a renowned and certified company that is known organization that develop standards
+                                to
+                                ensure the quality.</p>
+                        </div>
+                        <div class="grid-boxes">
+                            <i class="fa-solid fa-headset"></i>
+                            <h5>Free Consultation</h5>
+                            <p>Consultation is a must when buying or selling a property and we provide thid service for
+                                free
+                                to all who approach us</p>
+                        </div>
+                        <div class="grid-boxes">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <h5>Best-Pricing</h5>
+                            <p>The prices and the property we deal in are of different range.We can provide the best
+                                property in your specified budget.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--prime-infra-section-end-->
+
+    <!--creating-spaces-section-->
+    <section id="creating-spaces">
+        <div class="container">
+            <h4 class="gold-text text-center">Who We’re</h4>
+            <h2 class="green-text justify-content-center align-items-center  ">Creating Spaces that are<br> True
+                Masterpieces.</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 ">
+                    <div class="creating-box d-flex">
+                        <div class="img-box">
+                            <img src="./images/contemporary.png" alt="contem" class="img-fluid">
+                        </div>
+                        <div class="text">
+                            <h5>Contemporary</h5>
+                            <p class="m-0">We are in sync with the extremely competitive business environment and are
+                                driving transformation that is futuristic in every sense.</p>
+                        </div>
+                    </div>
+                    <div class="creating-box d-flex">
+                        <div class="img-box">
+                            <img src="./images/progressive.png" alt="progressive" class="img-fluid">
+                        </div>
+                        <div class="text">
+                            <h5>Progressive</h5>
+                            <p class="m-0">We are new in what we think and are inculcating innovation in all our
+                                actions, while staying true to our fundamental principles and values.</p>
+                        </div>
+                    </div>
+                    <div class="creating-box d-flex">
+                        <div class="img-box">
+                            <img src="./images/innovative.png" alt="innovative" class="img-fluid">
+                        </div>
+                        <div class="text">
+                            <h5>Innovative</h5>
+                            <p class="m-0">We continue each day to achieve new horizons and discover new processes,
+                                services, and products to positively change the business environment.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6  ps-lg-5 text-lg-start text-center mb-lg-0 mb-5">
+                    <img src="./images/who-are-we.svg" alt="we-are" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--creating-spaces-section-end-->
+
+    <!--our-blog-section-->
+    <section id="Our-blog">
+        <img src="./images/build-skyline.png" alt="skyline" class="img-fluid left-skyline">
+        <img src="./images/build-skyline2.png" alt="skyline2" class="img-fluid right-skyline">
+        <div class="container position-relative">
+            <h4 class="gold-text">Our Blog Posts</h4>
+            <h2 class="green-text">News & Articles</h2>
+            <a href="" class="prop-view-btn">View More News & Articles</a>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 mb-lg-0 mb-5">
+                    <div class="blog-card">
+                        <img src="./images/1683801676_real-Copy-1200x771.jpg" alt="real-copy" class="img-fluid">
+                        <p class="grey-text">May 11, 2023</p>
+                        <h6>6 Reasons Why You Should Consider Using....</h6>
+                        <p class="">Buying a home is a significant financial and emotional decision. It involves
+                            several complex steps, from...</p>
+                        <a href="" class="gold-link">Continue Reading <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 mb-lg-0 mb-5">
+                    <div class="blog-card">
+                        <img src="./images/1683800977_Punes_Real_Estate_Market.jpg" alt="market" class="img-fluid">
+                        <p class="grey-text ">May 11, 2023</p>
+                        <h6>Exploring the Trends and Opportunities i...</h6>
+                        <p class="">Pune, the cultural capital of Maharashtra, is known for its rich history, vibrant
+                            culture, and excellent...</p>
+                        <a href="" class="gold-link">Continue Reading <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="blog-card">
+                        <img src="./images/1683799765_Real_Estate_Investment_Opportunities_for_2022.jpg" alt="invest"
+                            class="img-fluid">
+                        <p class="grey-text">May 11, 2023</p>
+                        <h6>Unlocking the Potential of Commercial Real...</h6>
+                        <p class="">Pune, one of India's fastest-growing cities, has been attracting a lot of attention
+                            from commercial real...</p>
+                        <a href="" class="gold-link">Continue Reading <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--our-blog-section-end-->
+
+    <!--testimonial-section-->
+    <section id="Testimonial-sec">
+        <div class="container">
+            <h4 class="gold-text">Testimonials</h4>
+            <h2 class="green-text">What they're saying about our work</h2>
+            <div class="owl-carousel Testimonial ">
+                <div class="item">
+                    <div class="testimonial-card">
+                        <div class="img-box d-flex">
+                            <img src="./images/1678808685_H91A0919_1.jpg" alt="testi-img" class="img-fluid">
+                            <div class="name-info">
+                                <h3>Dr Qureshi</h3>
+                            </div>
+                        </div>
+                        <p>
+                            We were looking for a few good lucrative deals in the CRE space to extend our portfolio. The
+                            ACE team did come up with some good options (s) and eventually, we closed two of them.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-card">
+                        <div class="img-box d-flex">
+                            <img src="./images/1678808441_istockphoto-1212177440-170667a.jpg" alt="testi-img"
+                                class="img-fluid">
+                            <div class="name-info">
+                                <h3>Ashok Patil</h3>
+                            </div>
+                        </div>
+                        <p>
+                            Me and my wife were looking for a home in Pune. We searched numerous options but were not
+                            very satisfied. The good ones were beyond our budget while others failed to match our
+                            expectations. Finally, we contacted ACE and they helped us find a suitable o
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-card">
+                        <div class="img-box d-flex">
+                            <img src="./images/1678808575_rishi-gangoly-man-indian-professional-male-thinking.jpg"
+                                alt="testi-img" class="img-fluid">
+                            <div class="name-info">
+                                <h3>Satish Sharma</h3>
+                            </div>
+                        </div>
+                        <p>
+                            We were looking to find a 1500 sq ft. office space in Gurgaon. Despite surveying multiple
+                            properties, we were unable to find the best match. Then someone suggested ACE and we
+                            connected with them. Within just 2 weeks we were able to find and close a su.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-card">
+                        <div class="img-box d-flex">
+                            <img src="./images/1678808611_istockphoto-1003565818-612x612.jpg" alt="testi-img"
+                                class="img-fluid">
+                            <div class="name-info">
+                                <h3>Arun Bhardwaj</h3>
+                            </div>
+                        </div>
+                        <p>
+                            Ace Prime Infra has been really helpful to us in our property search. Thanks to their
+                            relentless services and higher standards of professionalism, we were able to find our dream
+                            home soon.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--testimonial-section-end-->
+
+    <!--subscribe-section-->
+    <section id="subscribe-sec">
+        <div class="container">
+            <div class="row subscribe-box">
+                <div class="col-lg-2 position-relative">
+                    <img src="./images/subscribe-img.png" alt="subscribe-img" class="img-fluid">
+                </div>
+                <div class="col-lg-4 p-0">
+                    <h3>Subscribe <br> Our <span>Newsletter</span></h3>
+                </div>
+                <div class="col-lg-6 p-0 ">
+                    <form action="" class="d-flex align-items-center">
+                        <input type="email" class="form-control" placeholder="abc@example.com" id="Email" required>
+                        <button type="submit" class="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--subscribe-section-end-->
+
+    <!--footer-section-->
+    <section id="footer" class="pt-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 md-mb-0 mb-4 border-right p-lg-0">
+                    <img src="./images/logo-desktop.png" alt="logo" class="img-fluid mb-4" height="100px">
+                    <p>Connecting the dots between Real Estate Buyers, Developers & Landlords. Operating across
+                        Commercial as well as Residential Properties.</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8  foot-menus">
+                    <div class="footr-menu">
+                        <h3>Top Cities</h3>
+                        <ul>
+                            <li><a href="">Gurgaon</a></li>
+                            <li><a href="">Pune</a></li>
+                            <li><a href="">Delhi</a></li>
+                            <li><a href="">Mumbai</a></li>
+                            <li><a href="">Nagpur</a></li>
+                            <li><a href="">Himachal pradesh</a></li>
+                            <li><a href="">New Delhi</a></li>
+                        </ul>
+                    </div>
+                    <div class="footr-menu">
+                        <h3>Explore</h3>
+                        <ul>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Career</a></li>
+                            <li><a href="">Blogs</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="footr-menu">
+                        <h3>Know More</h3>
+                        <ul>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-section-end-->
+
+    <!--address-section-->
+    <section class="p-0 address-detail-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 mb-md-0 mb-4 ">
+                    <div class="address-box ">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="address-detail">
+                            <h5 class="gold-text">Pune</h5>
+                            <h4>A-105, ICC Trade Tower, Senapati Bapat Road, Pune - 411016</h4>
+                            <p class="grey-text">Phone Number: +91 9891479479</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 ">
+                    <div class=" address-box ">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="address-detail">
+                            <h5 class="gold-text">Gurugram</h5>
+                            <h4>1008, T-4, Dlf Corporate Green, Sector 74 A,Haryana - 122004</h4>
+                            <p class="grey-text">Phone Number: +91 95400 26026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right text-center mt-3">
+            © Copyright 2023 by Ace Prime Infra
+        </div>
+    </section>
+    <!--address-section-end-->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

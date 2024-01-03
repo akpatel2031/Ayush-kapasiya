@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Real State Consultancy</title>
+    <link rel="shortcut icon" href="./images/logo-favicon.png" type="image/x-icon">
+
+    <!--bootstrap-cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <!--font-awesome-cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!--custom css-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/services.css">
+
+    <!--fonts css -->
+    <link rel="stylesheet" href="css/fonts.css">
+
+    <!--owl-carousel-cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <style>
+        input::-webkit-input-placeholder,
+        textarea::-webkit-input-placeholder {
+            color: #777777 !important;
+
+        }
+
+        input:-moz-placeholder,
+        textarea:-moz-placeholder {
+            color: #777777 !important;
+        }
+    </style>
+
+
+</head>
+
+<body class="services-page">
+    <!--header-section-->
+    <header>
+        <nav class="navbar  fixed-top main-menu">
+            <div class="container-fluid">
+                <a class="navbar-brand py-0" href="#"><img src="./images/logo-desktop.png" alt="logo" width="109px"
+                        height="80px" class="logo"></a>
+                <form action="" class="menu-search-bar">
+                    <div class="input-group">
+                        <div class="left-select">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <select class="form-select p-0 " aria-label="Default select example">
+                                <option selected>Pune</option>
+                                <option value="1">Mumbai</option>
+                                <option value="2">Gurugram</option>
+                                <option value="3">Delhi</option>
+                                <option value="4">Nagpur</option>
+                                <option value="5">Himachal pradesh</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" placeholder="Search Project,Locality Builder..." class="form-control">
+                            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                            <button class="close-btn">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <button class="search-btn ms-auto" id="btn_search">
+                    <i class="fa-solid fa-magnifying-glass "></i>
+                </button>
+                <nav class="navbar ms-md-auto py-0">
+                    <ul class="navbar-nav me-auto  flex-row d-lg-flex dekstop-only align-items-center">
+                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="channel.html">Channel partner</a></li>
+                        <li class="nav-item"><a class="nav-link" href="mandate.html">Mandate</a></li>
+                        <a href="tel: +91 8946781398" class="header-call nav-link">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            <span>+91 8946781398</span>
+                        </a>
+
+                    </ul>
+                    <a href="tel: +91 8946781398" class="header-call-mobile nav-link d-md-none">
+                        <i class="fa-solid fa-phone-volume"></i>
+
+                    </a>
+
+                </nav>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-bars"></i></span>
+                </button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="channel.html">Channel Partner</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="mandate.html">Mandate</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="career.html">Career</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="privacy.html">privacy Policy</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--header-section-end-->
+
+    <!--contact-bg-->
+    <section id="contact-bg">
+        <div class="container">
+            <div class="contact-heading">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-0">
+                        <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+                        <li class="breadcrumb-item active gold-text" aria-current="page">Contact us</li>
+                    </ol>
+                </nav>
+                <h2>Contact us</h2>
+            </div>
+        </div>
+    </section>
+    <!--contact-bg-end-->
+
+    <!--contact-form-section-->
+    <section id="contact-form-sec">
+        <!--channel-form-->
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 mb-md-0 mb-5">
+                    <h2 class="green-text">Connect with us</h2>
+                    <form action="\action.php" class="contact-form">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 mb-4 position-relative">
+                                <i class="fa-regular fa-user"></i>
+                                <input type="text" id="Name" class="form-control" placeholder="Enter Name" required>
+                                <span id="contactus_name_error"></span>
+                            </div>
+                            <div class="col-lg-6 col-md-6 mb-4 position-relative">
+                                <i class="fa-regular fa-envelope"></i>
+                                <input type="email" id="Email" placeholder="Enter Email ID" class="form-control"
+                                    required>
+                                <span id="contactus_email_error"></span>
+                            </div>
+
+                            <div class="col-12 mb-4 position-relative">
+                                <i class="fa-solid fa-phone-volume"></i>
+                                <input type="tel" id="Phone-number" class="form-control" placeholder="Phone Number"
+                                    required pattern="[0-9]{10}">
+                                <span id="contactus_phone_error"></span>
+                            </div>
+                            <div class="col-12 position-relative mb-4">
+                                <i class="fa-regular fa-comment-dots"></i>
+                                <textarea name="Description" id="" cols="30" rows="5" class="form-control"
+                                    placeholder="Write Comment" required></textarea>
+                                <span id="contactus_comment_error"></span>
+                            </div>
+                            <div class="col-12 position-relative">
+                                <button type="submit" class="form-control green-bg-btn">Send Enquire</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6 col-md-6 text-md-end text-center">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15131.062630891996!2d73.82569846557617!3d18.53948906476737!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf7e07a7ece1%3A0xc22dcdaa3009a4fd!2sAce%20Prime%20Infra!5e0!3m2!1sen!2sin!4v1702969324538!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!--channel-form-end-->
+    </section>
+    <!--contact-form-section-end-->
+
+    <!--offices-details-section-->
+    <section id="office-info" class="pt-0">
+        <div class="container">
+            <h2 class="green-text">Offices</h2>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 mb-4 mb-md-0 office">
+                    <h4 class="green-place-name">Gurugram</h4>
+                    <span class=""><i class="bi bi-geo-alt"></i></span>
+                    <p class="wel-para mb-2 d-inline">1008, T-4, Dlf
+                        Corporate Green,
+                        Sector 74 A, Gurugram,
+                        Haryana - 122004</p>
+                    <div class="call-mail mt-3 ms-1 d-flex  flex-wrap">
+                        <a class="wel-para mb-md-2 mb-3 me-2 me-md-4" href=""><span class=""><i
+                                    class="bi bi-telephone"></i></span>+91 95400
+                            26026</a>
+                        <a class="wel-para mb-2" href=""><span class=""><i
+                                    class="bi bi-envelope"></i></span>info@aceprimeinfra.in</a>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-6 office">
+                    <h4 class="green-place-name">Pune</h4>
+                    <p class="wel-para mb-3"><span class=""><i class="bi bi-geo-alt"></i></span>A-105, ICC Trade
+                        Tower, Senapati Bapat Road, Pune - 411016</p>
+
+                    <a class="wel-para ms-1" href=""><span class=""><i class="bi bi-telephone"></i></span>+91 95400
+                        26026</a>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--offices-details-section-end-->
+
+
+
+    <!--subscribe-section-->
+    <section id="subscribe-sec">
+        <div class="container">
+            <div class="row subscribe-box">
+                <div class="col-lg-2 position-relative">
+                    <img src="./images/subscribe-img.png" alt="subscribe-img" class="img-fluid">
+                </div>
+                <div class="col-lg-4 p-0">
+                    <h3>Subscribe <br> Our <span>Newsletter</span></h3>
+                </div>
+                <div class="col-lg-6 p-0 ">
+                    <form action="" class="d-flex align-items-center">
+                        <input type="email" class="form-control" placeholder="abc@example.com" id="Email" required>
+                        <button type="submit" class="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--subscribe-section-end-->
+
+    <!--footer-section-->
+    <section id="footer" class="pt-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 md-mb-0 mb-4 border-right p-lg-0">
+                    <img src="./images/logo-desktop.png" alt="logo" class="img-fluid mb-4" height="100px">
+                    <p>Connecting the dots between Real Estate Buyers, Developers & Landlords. Operating across
+                        Commercial as well as Residential Properties.</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8  foot-menus">
+                    <div class="footr-menu">
+                        <h3>Top Cities</h3>
+                        <ul>
+                            <li><a href="">Gurgaon</a></li>
+                            <li><a href="">Pune</a></li>
+                            <li><a href="">Delhi</a></li>
+                            <li><a href="">Mumbai</a></li>
+                            <li><a href="">Nagpur</a></li>
+                            <li><a href="">Himachal pradesh</a></li>
+                            <li><a href="">New Delhi</a></li>
+                        </ul>
+                    </div>
+                    <div class="footr-menu">
+                        <h3>Explore</h3>
+                        <ul>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Career</a></li>
+                            <li><a href="">Blogs</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="footr-menu">
+                        <h3>Know More</h3>
+                        <ul>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-section-end-->
+
+    <!--address-section-->
+    <section class="p-0 address-detail-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 mb-md-0 mb-4 ">
+                    <div class="address-box ">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="address-detail">
+                            <h5 class="gold-text">Pune</h5>
+                            <h4>A-105, ICC Trade Tower, Senapati Bapat Road, Pune - 411016</h4>
+                            <p class="grey-text">Phone Number: +91 9891479479</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 ">
+                    <div class=" address-box ">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="address-detail">
+                            <h5 class="gold-text">Gurugram</h5>
+                            <h4>1008, T-4, Dlf Corporate Green, Sector 74 A,Haryana - 122004</h4>
+                            <p class="grey-text">Phone Number: +91 95400 26026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right text-center mt-3">
+            © Copyright 2023 by Ace Prime Infra
+        </div>
+    </section>
+    <!--address-section-end-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
