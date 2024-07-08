@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+/*common-css-------*/
+h1 {
+    font-size: 58px;
+    /* line-height: 72px; */
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    color: #3d2514;
+
+}
+
+
+h2 {
+    font-size: 48px;
+    line-height: 54px;
+    font-weight: normal;
+    color: white;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 54px;
+    font-weight: normal;
+    color: white;
+    margin-bottom: 0px;
+
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+    color: white;
+}
+
+h5 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: normal;
+}
+
+h6 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+    color: white;
+
+}
+
+p {
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: normal;
+    color: #6C757D;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.btn {
+    border: 1px solid;
+    border-radius: 32px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 15px 30px;
+}
+
+.btn-primary {
+    background: #bf2222;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 17px;
+    letter-spacing: 0.02em;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    border: 1px solid #bf2222;
+    color: #bf2222;
+}
+
+.btn-secondary {
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-secondary:hover {
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.btn-transperent {
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+}
+
+/*header-section*/
+header {
+    position: absolute;
+    width: 100%;
+    /* height: 100%; */
+    z-index: 999;
+}
+
+header .main-menu .Delivery {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #3d2514;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+header .main-menu .nav-link {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3d2514;
+    letter-spacing: 0.2em;
+    padding: 0 !important;
+}
+
+header .main-menu .nav-item {
+    margin: 20px;
+}
+.navbar-toggler{
+    border-color: #3d2514;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-toggler .bi-list {
+    color: #3d2514;
+    font-weight: bold;
+}
+
+
+/*banner-section*/
+#banner-bg .banner-text h3 {
+    border-style: dashed;
+    border-color: #3d2514;
+    padding: 0px 15px;
+    color: #3d2514;
+}
+
+#banner-bg .banner-text h1 span {
+    font-size: 114px;
+}
+
+#banner-bg .row .circle {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: #bf2222;
+    border-radius: 100%;
+    bottom: 20%;
+    /* float: right; */
+    left: 12%;
+    /* padding: 20px; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+#banner-bg .row .circle p {
+    font-size: 45px;
+    color: white;
+    margin: 0 auto;
+    line-height: 54px;
+    text-align: center;
+    border-style: dashed;
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+    padding: 8px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.banner-text {
+    margin: auto;
+}
+
+/*about-section*/
+.col-lg-6.padd-layout {
+    padding: 0px 20px 0px 0px;
+}
+
+#about .img-box-1 {
+    background: url(./images/Burger-Image1d.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 420px;
+    border-radius: 15px;
+    padding: 20px;
+    opacity: .9;
+
+}
+
+
+#about .img-box-2 {
+    background: url(./images/Image1d.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 192px;
+    border-radius: 15px;
+    padding: 20px;
+    opacity: .9;
+}
+
+#about .img-box-3 {
+    background: url(./images/Image11d.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 192px;
+    border-radius: 15px;
+    padding: 20px;
+    opacity: .9;
+    margin-top: 36px;
+}
+
+/*choose-section*/
+#choose .bg-text {
+    color: #3d2514;
+    background-color: #ffc045;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#choose .text {
+    color: #3d2514;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    margin: 35px 0px;
+    letter-spacing: 0.02em;
+}
+
+#choose p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16.67px;
+    line-height: 25px;
+    max-width: 900px;
+    margin: auto;
+    color: #3d2514;
+    margin-bottom: 35px;
+}
+
+#choose .row h3 {
+    color: #3d2514;
+}
+
+/*discover*/
+#discover .container {
+    box-shadow: 15px 25px 40px -20px #262424;
+    padding: 25px;
+}
+
+#discover .carousel-indicators {
+    position: absolute;
+    right: inherit;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 0%;
+    margin-bottom: 1rem;
+    margin-left: 0%;
+}
+
+#discover .carousel-indicators [data-bs-target] {
+    border-radius: 100%;
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #a8a4a4;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+#discover .carousel-indicators .active {
+    opacity: 1;
+    background-color: #ffc045;
+}
+
+#discover h3 {
+    color: #3d3d3d;
+}
+
+#discover h2 {
+    color: #3d2514;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+/*reservation-section*/
+#reservation {
+    position: relative;
+    width: 100%;
+}
+
+#reservation h2 {
+    color: #3d2514;
+    font-family: 'Alfa Slab One', cursive;
+
+}
+
+#reservation h3 {
+    color: #3d2514;
+}
+
+#reservation .form-group {
+    max-width: 750px;
+    margin: auto;
+
+}
+
+#reservation .form-control {
+    padding: 18px;
+}
+
+#reservation form .position-absolute {
+    left: 160px;
+}
+
+#reservation form .plate {
+    right: 0px;
+    position: absolute;
+    bottom: -96px;
+}
+
+/*footer-section*/
+footer {
+    margin: 20px 40px 40px;
+}
+
+footer .footer-bg {
+    background: url(./images/Layer.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+    width: 100%;
+    padding: 70px 50px 20px;
+}
+
+footer .footer-bg p {
+    color: white;
+    line-height: 22px;
+    margin-top: 50px;
+}
+
+footer .icons a {
+    color: white;
+}
+
+footer .address {
+    position: relative;
+    top: 70%;
+    transform: translate(15%, -50%);
+
+}
+
+footer .bottom-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+
+/*media-queries*/
+@media (max-width: 1024px) {
+    h3 {
+        font-size: 22px;
+    }
+
+    #banner-bg .banner-text h3 {
+        text-align: center;
+    }
+
+    #banner-bg .banner-text h1 span {
+        font-size: 90px;
+    }
+
+    #discover .carousel-indicators {
+        bottom: -12px;
+        margin-bottom: 0;
+    }
+
+    #reservation form .position-absolute {
+        left: 34px;
+
+    }
+
+    #reservation form .plate {
+        right: 0px;
+        position: absolute;
+        bottom: -96px;
+        z-index: -99;
+        width: 200px;
+    }
+
+    .burger1 {
+        z-index: -999;
+        width: 250px;
+    }
+
+
+}
+
+@media (max-width: 991px) {
+
+    .bottle,
+    .plate {
+        display: none;
+    }
+
+    .banner-text {
+        margin-top: 140px;
+    }
+
+    #banner-bg .banner-text h1 {
+        margin-top: 30px;
+    }
+
+    .col-6.pe-md-0.ps-md-0.main-menu {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .col-lg-6.padd-layout {
+        padding: 0px 12px;
+    }
+
+    .margin-layout {
+        margin-top: 36px;
+    }
+
+    #discover .carousel-indicators {
+        bottom: -29px;
+        margin-bottom: 0;
+    }
+
+    footer .address {
+
+        transform: translate(0%, -50%);
+    }
+}
+
+@media (max-width: 575px) {
+    #banner-bg .banner-text h1 span {
+        font-size: 70px;
+    }
+    footer .footer-bg{
+        padding: 50px 30px 20px;
+    }
+}
