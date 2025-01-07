@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px 12px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.temperature-box {
+    max-width: 450px;
+    margin: auto;
+    background: #ffffff47;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: black;
+}
+
+label {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+input {
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 0px;
+    padding: 10px;
+    width: 100%;
+    background: #ffffff47;
+    display: block;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.button-2 {
+    background-color: rgba(102, 22, 22, 0.808);
+    margin-left: 20px;
+}
+
+button {
+    padding: 12px;
+    background: #2aa17c;
+    color: white;
+    font-size: 18px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+}
