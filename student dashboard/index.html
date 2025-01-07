@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student dashboard</title>
+
+    <!--tailwindcss-cdn-->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <!--custom-css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--fontawesome-cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--google-fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="dashboard  bg-white  flex p-6 position-relative max-w-full gap-8">
+        <div class="sidebar bg-violet-700  rounded-3xl">
+            <div class="rounded-3xl p-5 pro-bg w-32  m-auto">
+                <img src="Graduation Cap.png" alt="" class="max-w-full h-auto">
+            </div>
+            <div class="menu mt-10">
+                <ul>
+                    <li class="mt-4"><a href="#" class="text-white text-base  active"><i
+                                class="fa-solid fa-table-columns mr-3"></i>Dashboard</a></li>
+                    <li class="mt-4"><a href="#" class="text-white text-base "><i
+                                class="fa-solid fa-credit-card mr-3"></i>Payment Info</a></li>
+                    <li class="mt-4"><a href="#" class="text-white text-base "><i
+                                class="fa-solid fa-pen mr-3"></i>Registration</a></li>
+                    <li class="mt-4"><a href="#" class="text-white text-base "><i
+                                class="fa-solid fa-book mr-3"></i>Courses</a></li>
+                    <li class="mt-4"><a href="#" class="text-white text-base "><i
+                                class="fa-solid fa-rectangle-xmark mr-3"></i>Drop Semester</a></li>
+                    <li class="mt-4"><a href="#" class="text-white text-base "><i
+                                class="fa-solid fa-square-poll-vertical mr-3"></i>Result</a></li>
+                    <li class="mt-4"><a href="#" class="text-white text-base "><i
+                                class="fa-solid fa-message mr-3"></i>Notice</a></li>
+                    <li class="mt-4"><a href="#" class="text-white text-base "><i
+                                class="fa-solid fa-clipboard-list mr-3"></i>Schedule</a></li>
+                </ul>
+            </div>
+            <div class="log-btn mt-12">
+                <a href="#" class="text-white opacity-75 "><i class="fa-solid fa-right-from-bracket mr-3"></i>Log
+                    Out</a>
+            </div>
+        </div>
+        <div class="studenr-detail ">
+            <div class="flex flex-wrap items-center justify-between">
+                <form action="">
+                    <input type="search" class="form-control text-base rounded-3xl bg-white shadow-xl h-12 w-96 px-8 "
+                        placeholder="search">
+                </form>
+                <div class="flex flex-wrap  items-center justify-between gap-32">
+                    <div class="profile-dp flex flex-wrap items-center justify-between ">
+                        <img src="profile.png" alt="" class="w-12 mr-3">
+                        <div class="">
+                            <h4 class="font-semibold text-base text-black">John Doe</h4>
+                            <p class="text-base text-black opacity-75">3rd year</p>
+                        </div>
+                    </div>
+                    <div class="bell-icon">
+                        <span class="circle"></span>
+                        <i class="fa-solid fa-bell"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-10 welcome-bg rounded-3xl  shadow-xl">
+                <div class="flex flex-wrap justify-between ">
+                    <div class="welcome_content p-6 pr-0 pl-8">
+                        <p class="text-base text-white opacity-75 mb-6">July 20, 2024</p>
+                        <h3 class="text-base text-white font-semibold text-3xl">Welcome back, John!</h3>
+                        <p class="text-base text-white opacity-75">Always stay updated in your student portal</p>
+                    </div>
+                    <div class="images ">
+                        <img src="wel-image.png" alt="">
+
+                    </div>
+                </div>
+            </div>
+            <div class="flex mt-10 flex-wrap gap-8 ">
+                <div class="fee-detail">
+                    <h3 class="text-black font-semibold text-xl mb-3">Finance</h3>
+                    <div class="finance-data grid grid-cols-3 gap-6 text-center">
+                        <div class="box-one rounded-3xl  shadow-xl bg-white p-6">
+                            <img src="pay.png" alt="" class="mb-3 m-auto">
+                            <h5 class="font-semibold text-xl text-black">$10,000</h5>
+                            <p class="text-black opacity-50">Total Payable</p>
+                        </div>
+                        <div class="box-one two rounded-3xl  shadow-xl bg-white p-6 ">
+                            <img src="paid.png" alt="" class="mb-3 m-auto">
+                            <h5 class="font-semibold text-xl text-black">$5,000</h5>
+                            <p class="text-black opacity-50">Total Paid</p>
+                        </div>
+                        <div class="box-one rounded-3xl  shadow-xl bg-white p-6 ">
+                            <img src="other.png" alt="" class="mb-3 m-auto">
+                            <h5 class="font-semibold text-xl text-black">$3,000</h5>
+                            <p class="text-black opacity-50">Others</p>
+                        </div>
+                    </div>
+                    <div class="enroll-course mt-10 ">
+                        <div class="flex items-center justify-between mb-3">
+                            <h4 class="text-black font-semibold text-xl ">Enrolled Courses</h4>
+                            <a href="#" class="see-btn font-semibold text-xl ">See all</a>
+                        </div>
+                        <div class="flex flex-wrap gap-8 ">
+                            <div class="course-one p-6 rounded-3xl  shadow-xl bg-white p-4 ">
+                                <div class="flex">
+                                    <div>
+                                        <h4 class="font-semibold text-lg mb-6">Object Oriented <br> Programming</h4>
+                                        <a href="#"
+                                            class="view-btn text-lg font-semibold text-white py-1.5 px-10 rounded-3xl  shadow-xl ">view</a>
+                                    </div>
+                                    <img src="pc.png" alt="">
+                                </div>
+                            </div>
+                            <div class="course p-6 rounded-3xl  shadow-xl bg-white p-4 ">
+                                <div class="flex gap-4">
+                                    <div>
+                                        <h4 class="font-semibold text-lg mb-6">Fundamentals of <br> database systems
+                                        </h4>
+                                        <a href="#"
+                                            class="view-btn text-lg font-semibold text-white py-1.5 px-10 rounded-3xl  shadow-xl">view</a>
+                                    </div>
+                                    <img src="funda.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="instructor">
+                    <h3 class="text-black font-semibold text-xl mb-3">Finance</h3>
+                    <div class="flex gap-4">
+                        <img src="Ellipse 16.png" alt="">
+                        <img src="Ellipse 17.png" alt="">
+                        <img src="Ellipse 18.png" alt="">
+                    </div>
+
+                    <div class="flex items-center justify-between mb-3 mt-6">
+                        <h4 class="text-black font-semibold text-xl ">Daily notice</h4>
+                        <a href="#" class="see-btn font-semibold text-xl ">See all</a>
+                    </div>
+                    <div class="rounded-3xl  shadow-xl bg-white p-6 notice-box">
+                        <h4 class="text-black font-semibold text-base">Prelim payment due</h4>
+                        <p class="text-black opacity-50 my-2 first-para">Sorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</p>
+                        <a href="#" class="see-btn font-semibold ">See more</a>
+                        <h4 class="text-black font-semibold text-base mt-6">Exam schedule</h4>
+                        <p class="text-black opacity-50 my-2">Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+                            interdum, ac aliquet odio mattis.</p>
+                        <a href="#" class="see-btn font-semibold">See more</a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>
