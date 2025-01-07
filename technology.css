@@ -1,0 +1,166 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    /* font-family: 'EB Garamond', serif; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#technology-bg-desktop {
+    background: url(assets/technology/background-technology-desktop.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    overflow: hidden;
+
+}
+
+
+
+/* .offcanvas-header {
+    font-size: 30px;
+    font-weight: 500;
+    justify-content: end !important;
+
+} */
+.btn-close {
+
+    background-color: white !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.navbar {
+    padding-top: 30px !important;
+}
+
+.navbar-brand {
+    margin-left: 25px !important;
+}
+
+.navbar-nav {
+    /* margin-right: 100px !important; */
+    background-color: rgba(255, 255, 255, .03);
+    backdrop-filter: blur(8px);
+
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: rgb(255, 255, 255);
+    padding: 20px !important;
+    z-index: 2;
+    /* font-weight: 200; */
+    font-family: 'Times New Roman', Times, serif;
+
+    /* font-size: 1rem; */
+}
+
+.navbar-nav span {
+    font-weight: bold;
+    color: white;
+    padding-right: 4px;
+}
+
+.nav-item {
+    padding: 12px 0px;
+    position: relative;
+}
+
+.nav-item:last-child {
+    margin-right: 100px;
+}
+
+.nav-item:first-child {
+    margin-left: 80px;
+}
+
+.navbar-nav .active::after {
+    content: " ";
+    width: 55%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    left: 25%;
+    bottom: 0px;
+}
+
+.navbar-nav .active {
+    color: rgb(255, 255, 255) !important;
+}
+
+.horizontal-line {
+    color: white;
+    width: 40%;
+    margin-left: 112px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+}
+
+/*section-2*/
+#technology-content .heading {
+    margin-top: 60px;
+    margin-left: 6px;
+}
+
+#technology-content .heading h4 {
+    letter-spacing: .2em;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#technology-content .heading span {
+    padding-right: 12px;
+    color: grey;
+}
+
+#technology-content .tabs {
+    display: block;
+    float: left;
+    color: white;
+    padding: 50px;
+    padding-left: 0px;
+
+}
+
+#technology-content .tab-field .tabs li {
+    list-style: none;
+    margin-top: 30px;
+    border: 1px solid rgba(226, 221, 221, .6);
+    border-radius: 100%;
+    padding: 10px 20px;
+    font-size: 2rem;
+   
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+#technology-content .tab-field .tabs .active {
+    background-color: white;
+    color: rgb(8, 8, 36);
+}
+#technology-content .tab_content .info{
+    margin-top: 115px;
+    text-align: justify;
+}
+#technology-content .tab_content .info h6{
+    color: rgb(115, 127, 143);
+    font-family: 'Times New Roman', Times, serif;
+}
+#technology-content .tab_content .info h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    letter-spacing: .04em;
+}
+#technology-content .tab_content .info p{
+    color: rgb(115, 127, 143);
+    margin-top: 15px;
+    font-size: 1rem;
+    letter-spacing: .04em;
+}

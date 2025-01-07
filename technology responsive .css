@@ -1,0 +1,101 @@
+@media (max-width:991.8px) {
+    #technology-bg-desktop {
+        background: url(assets/technology/background-technology-tablet.jpg) no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+    
+    }
+    .navbar-nav .active::after {
+        display: none;
+    }
+
+    .nav-item:first-child {
+        margin-left: 0px;
+    }
+
+    .nav-item:last-child {
+        margin-right: 0px;
+    }
+
+    .horizontal-line {
+        display: none;
+    }
+
+    .offcanvas {
+        width: 450px !important;
+        height: 50vh;
+        background-color:  rgba(255, 255, 255, .03) !important;
+        /* backdrop-filter: blur(8px) !important; */
+
+    }
+
+    .offcanvas-header {
+        font-size: 30px;
+        font-weight: 500;
+        justify-content: end !important;
+
+    }
+
+    .navbar-nav {
+        /* margin-right: 100px !important; */
+        background-color: transparent;
+        backdrop-filter: blur(0px);
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        color: rgb(255, 255, 255,1);
+    }
+    
+
+
+
+}
+@media (min-width:992px) and (max-width:1024px) {
+    .horizontal-line {
+        /* color: white; */
+        width: 20%;
+        /* margin-left: 112px; */
+    }
+}
+
+
+
+@media (max-width:768px) {
+    #technology-bg-desktop {
+        background: url(assets/technology/background-technology-tablet.jpg) no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height:auto;
+    
+    }
+    .offcanvas {
+        width: 250px !important;
+        height: max-content;
+        background-color:  rgba(255, 255, 255, .03) !important;
+        backdrop-filter: blur(8px) !important;
+
+    }
+
+    .offcanvas-header {
+        font-size: 30px;
+        font-weight: 500;
+        justify-content: end !important;
+
+    }
+    
+}
+
+@media (max-width:576px) {
+    #technology-bg-desktop {
+        background: url(assets/technology/background-technology-mobile.jpg) no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+    
+    }
+    #technology-content .tab_content .info h1{
+        font-size: 2rem;
+    }
+    
+}
